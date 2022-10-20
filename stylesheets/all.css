@@ -8152,7 +8152,7 @@ textarea.form-control-lg {
 }
 
 .service-banner {
-  background-image: url("../../images/banner_service-sm.png");
+  background-image: url("../images/banner_service-sm.png");
   background-repeat: no-repeat;
   background-position: center center;
   height: 215px;
@@ -8161,7 +8161,7 @@ textarea.form-control-lg {
 
 @media (min-width: 768px) {
   .service-banner {
-    background-image: url("../../images/banner.png");
+    background-image: url("../images/banner.png");
     height: 288px;
     width: 100%;
     margin-bottom: 80px;
@@ -8258,7 +8258,7 @@ textarea.form-control-lg {
   }
 }
 .dog06 {
-  background-image: url("../../images/06.png");
+  background-image: url("../images/06.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -8268,11 +8268,11 @@ textarea.form-control-lg {
 
 @media (min-width: 768px) {
   .dog06 {
-    background-image: url("../../images/06@2x.png");
+    background-image: url("../images/06@2x.png");
   }
 }
 .cat07 {
-  background-image: url("../../images/07.png");
+  background-image: url("../images/07.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -8282,11 +8282,11 @@ textarea.form-control-lg {
 
 @media (min-width: 768px) {
   .cat07 {
-    background-image: url("../../images/07@2x.png");
+    background-image: url("../images/07@2x.png");
   }
 }
 .dog05 {
-  background-image: url("../../images/05.png");
+  background-image: url("../images/05.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -8296,7 +8296,7 @@ textarea.form-control-lg {
 
 @media (min-width: 768px) {
   .dog05 {
-    background-image: url("../../images/05@2x.png");
+    background-image: url("../images/05@2x.png");
   }
 }
 .card-hover:hover {
