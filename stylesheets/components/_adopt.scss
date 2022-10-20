@@ -1,0 +1,20 @@
+//近期作品
+.adopt-title{
+  background-image: url('../images/title02.png');
+  width:150px;
+  height:80px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
+@include media-breakpoint-up(md){
+  .adopt-title{
+    background-image: url('../images/title02@2x.png');
+    width:250px;
+    height:133.75px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+  }
+}
+

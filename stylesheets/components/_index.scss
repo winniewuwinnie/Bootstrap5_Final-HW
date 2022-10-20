@@ -1,0 +1,91 @@
+//banner
+//行動版
+.home-banner{
+  background-image: url('../images/home_mobile.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 635px;
+  margin-bottom: 40px;
+}
+
+//電腦版
+@include media-breakpoint-up(md) { 
+  .home-banner{
+    background-image: url('../images/home.png');
+    height: 810px;
+    width: 100%;
+    margin-bottom: 80px;
+  }
+}
+
+
+//近期作品
+.home-design-title{
+  background-image: url('../images/title01.png');
+  width:150px;
+  height:80px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
+@include media-breakpoint-up(md){
+  .home-design-title{
+    background-image: url('../images/title01@2x.png');
+    width:250px;
+    height:133.75px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+  }
+}
+
+//領養專區
+.home-adopt-title{
+  background-image: url('../images/title02.png');
+  width:150px;
+  height:80px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
+@include media-breakpoint-up(md){
+  .home-adopt-title{
+    background-image: url('../images/title02@2x.png');
+    width:250px;
+    height:133.75px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+  }
+}
+
+.dialog{
+  background-color: white;
+  border: 1px solid black;
+  padding: 5px 18px 5px 18px;
+  border-radius: 6px;
+  position: relative;
+  &::before{
+    content: "";
+    border-color: black transparent transparent transparent;
+    border-style: solid solid solid solid;
+    border-width: 9px;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    bottom: -18px;
+    left:65px;
+  }
+  &:after {
+    content: "";
+    border-color: white transparent transparent transparent;
+    border-style: solid solid solid solid;
+    border-width: 8px;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    bottom: -16px;
+    left:66px;
+}
+}

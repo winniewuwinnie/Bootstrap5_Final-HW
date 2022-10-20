@@ -1,0 +1,19 @@
+//banner
+//行動版
+.service-banner{
+  background-image: url('../../images/banner_service-sm.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 215px;
+  margin-bottom: 40px;
+}
+
+//電腦版
+@include media-breakpoint-up(md) { 
+  .service-banner{
+    background-image: url('../../images/banner.png');
+    height: 288px;
+    width: 100%;
+    margin-bottom: 80px;
+  }
+}

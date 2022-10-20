@@ -1,0 +1,29 @@
+//近期作品
+.design-title {
+  background-image: url("../images/title01.png");
+  width: 150px;
+  height: 80px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
+@include media-breakpoint-up(md) {
+  .design-title {
+    background-image: url("../images/title01@2x.png");
+    width: 250px;
+    height: 133.75px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .designer:hover,
+  .designer.active {
+    transition: 0.25s;
+    &::before {
+      content: "- ";
+    }
+  }
+}

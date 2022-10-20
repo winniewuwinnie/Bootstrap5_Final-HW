@@ -1,0 +1,158 @@
+.dog01 {
+  background-image: url("../images/dog01.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 424px;
+  border-radius: 16px 16px 0 0;
+}
+@include media-breakpoint-up(md) {
+  .dog01 {
+    background-image: url("../images/dog01@2x.png");
+  }
+}
+
+.dog04 {
+  background-image: url("../images/04.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 424px;
+  border-radius: 16px 16px 0 0;
+}
+@include media-breakpoint-up(md) {
+  .dog04 {
+    background-image: url("../images/04@2x.png");
+  }
+}
+
+.dog08 {
+  background-image: url("../images/08.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 424px;
+  border-radius: 16px 16px 0 0;
+}
+@include media-breakpoint-up(md) {
+  .dog08 {
+    background-image: url("../images/08@2x.png");
+  }
+}
+
+.dog06 {
+  background-image: url("../../images/06.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 424px;
+  border-radius: 16px 16px 0 0;
+}
+@include media-breakpoint-up(md) {
+  .dog06 {
+    background-image: url("../../images/06@2x.png");
+  }
+}
+
+.cat07 {
+  background-image: url("../../images/07.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 424px;
+  border-radius: 16px 16px 0 0;
+}
+@include media-breakpoint-up(md) {
+  .cat07 {
+    background-image: url("../../images/07@2x.png");
+  }
+}
+
+.dog05 {
+  background-image: url("../../images/05.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 424px;
+  border-radius: 16px 16px 0 0;
+}
+@include media-breakpoint-up(md) {
+  .dog05 {
+    background-image: url("../../images/05@2x.png");
+  }
+}
+
+
+.card-hover:hover {
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+  transition: 0.25s;
+  .dog01 {
+    background-image: url("../images/dog01-hover-1.png");
+    transition: 0.5s;
+  }
+  .dog04{
+    background-image: url("../images/dog01-hover.png");
+    transition: 0.5s;
+  }
+  .dog08{
+    background-image: url("../images/dog01-hover-2.png");
+    transition: 0.5s;
+  }
+  .dog06 {
+    background-image: url("../images/dog01-hover-1.png");
+    transition: 0.5s;
+  }
+  .cat07{
+    background-image: url("../images/dog01-hover.png");
+    transition: 0.5s;
+  }
+  .dog05{
+    background-image: url("../images/dog01-hover-2.png");
+    transition: 0.5s;
+  }
+}
+
+.draw-Btn {
+  background-image: url("../images/btn2.png");
+  width: 140px;
+  height: 153px;
+  &:hover {
+    background-image: url("../images/btn.png");
+  }
+}
+
+.text-hover {
+  display: none;
+  position: absolute;
+}
+
+.img-hover {
+  position: relative;
+  background-color: #000;
+  &:hover {
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: linear-gradient(
+        180deg,
+        rgba(100, 100, 100, 0),
+        rgba(100, 100, 100, 100)
+      );
+      opacity: 0.9;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 15px;
+    }
+    .text-hover {
+      display: block;
+      z-index: 1;
+    }
+  }
+}
+
